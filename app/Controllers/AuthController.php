@@ -34,7 +34,7 @@ public function login()
                         'isLoggedIn' => TRUE
                     ]);
 
-                    return redirect()->to(base_url('/'));
+                    return redirect()->to(base_url('/produk'));
                 } else {
                     session()->setFlashdata('failed', 'Kombinasi Username & Password Salah');
                     return redirect()->back();
