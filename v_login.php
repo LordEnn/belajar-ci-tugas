@@ -45,7 +45,8 @@ if (session()->getFlashData('failed')) {
 <?php
 }
 ?>                  
-                 <?= form_open('login', 'class = "row g-3 needs-validation"') ?>
+                 <?= form_open('login', 'class = "g-3 needs-validation w-100"') ?>
+
 
 <div class="col-12">
     <label for="yourUsername" class="form-label">Username</label>
